@@ -2,3 +2,5 @@
 *.bak
 #ignore all files ending with .o or .a
 *.[oa]
+#ignore all files ending with ~
+*~
