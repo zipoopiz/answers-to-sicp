@@ -1,0 +1,18 @@
+(load "D:\\source_code\\sicp\\utils.rkt")
+
+(define (make-rat n d) 
+  (let ((g (gcd n d)))
+    (cond ((= d 0) (error "denominator is zero.")
+           (or (and (< n 0) (< d 0)) (and (> n 0) (< d 0)))
+           (cons (- (/ n g)) (- (/ d g))))
+          (else
+           (cons (/ n g) (/ d g))))))
+;(define err-rat (make-rat 3 0))
+;(define minus-one-half (make-rat 1 -2))
+;(define minus-one-third (make-rat -1 3))
+;(define one-third (make-rat -1 -3))
+;(define one-fifth (make-rat 1 5))
+;(print-rat minus-one-half)
+;(print-rat minus-one-third)
+;(print-rat one-third)
+;(print-rat one-fifth)

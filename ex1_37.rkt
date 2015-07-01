@@ -1,0 +1,16 @@
+;;(define (cont-frac n d k)
+;;  (define (iter x)
+;;    (if (= x k)
+;;        (/ (n k) (d k))
+;;        (/ (n x) (+ (d x) (iter (+ x 1))))))
+;;  (iter 1))
+
+(define (cont-frac n d k) 
+  (define (iter x result)
+    (if (= x k)
+        result
+        (iter (+ x 1) (/ (n (- k x)) (+ (d (- k x)) result)))))
+  (iter 0 0))
+;;(cont-frac (lambda (i) 1)
+;;           (lambda (i) 1)
+;;           100)

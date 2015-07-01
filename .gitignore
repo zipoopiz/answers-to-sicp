@@ -1,0 +1,4 @@
+#ignore all files ending with .bak
+*.bak
+#ignore all files ending with .o or .a
+*.[oa]

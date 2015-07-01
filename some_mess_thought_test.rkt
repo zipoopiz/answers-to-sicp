@@ -1,0 +1,5 @@
+(append (list '()) (list 1 2 3))
+(cons 1 (list 2 3))
+(list 1 (list 2 3))
+(cons 1 (cons (list 2 3) '()))
+(append (list (list 1 2) (list 3 4)) (list 5 6))
