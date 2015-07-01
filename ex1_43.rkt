@@ -1,5 +1,5 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
-(load "D:\\source_code\\sicp\\ex1_42.rkt")
+(load "utils.rkt")
+(load "ex1_42.rkt")
 
 ;(define (repeated f n)
 ;  (lambda (v)

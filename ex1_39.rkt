@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex1_37.rkt")
+(load "ex1_37.rkt")
 
 (define (tan-cf x k)
   (cont-frac (lambda (i) 

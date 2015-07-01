@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 ;;;(define (count-leaves t)
 ;;  (define (inner-recurse x y)
 ;;    (+

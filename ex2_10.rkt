@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex2_7.rkt")
+(load "ex2_7.rkt")
 (define (error reason . args)
       (display "Error: ")
       (display reason)

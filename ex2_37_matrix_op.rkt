@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex2_36_accumulate_n.rkt")
+(load "ex2_36_accumulate_n.rkt")
 
 (define (dot-product v w)
   (accumulate + 0 (map * v w)))

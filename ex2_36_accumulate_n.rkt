@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 (define (accumulate-n op init seqs)
   (if (null? (car seqs))
       '()

@@ -1,5 +1,5 @@
 
-(load "D:\\source_code\\sicp\\ex2_8.rkt")
+(load "ex2_8.rkt")
 
 (define (half x)
   (/ x 2))

@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 (define (my-map p sequence)
   (accumulate (lambda (x y) (cons (p x) y)) '() sequence))
 

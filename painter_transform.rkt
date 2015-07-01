@@ -1,5 +1,5 @@
-(load "D:\\source_code\\sicp\\ex2_46_vect_operation.rkt")
-(load "D:\\source_code\\sicp\\ex2_47_frame.rkt")
+(load "ex2_46_vect_operation.rkt")
+(load "ex2_47_frame.rkt")
 
 (define (frame-coord-map frame)
   (lambda (v)

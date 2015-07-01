@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 (define (horner-eval x coefficient-sequence)
   (accumulate (lambda (this-coeff higher-terms) (+ (* x higher-terms) this-coeff))
               0

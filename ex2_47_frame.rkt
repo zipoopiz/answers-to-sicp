@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex2_46_vect_operation.rkt")
+(load "ex2_46_vect_operation.rkt")
 ;;(define (make-frame origin edge1 edge2)
 ;;  (list origin edge1 edge2))
 

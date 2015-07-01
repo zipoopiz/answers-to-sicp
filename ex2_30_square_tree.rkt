@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "utils.rkt")
 
 ;(define (square-tree tree)
  ; (cond ((null? tree) '())

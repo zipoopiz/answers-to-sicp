@@ -1,4 +1,4 @@
-(load "D:\\source code\\sicp\\ex2_46_vect_operation.rkt")
+(load "ex2_46_vect_operation.rkt")
 (define (make-segment start end)
   (cons start end))
 

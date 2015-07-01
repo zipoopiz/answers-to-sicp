@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "utils.rkt")
 
 (define (make-rat n d) 
   (let ((g (gcd n d)))

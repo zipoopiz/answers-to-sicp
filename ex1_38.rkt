@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex1_37.rkt")
+(load "ex1_37.rkt")
 
 (cont-frac (lambda (i) 1)
            (lambda (i) 

@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\painter_transform.rkt")
+(load "painter_transform.rkt")
 
 (define (flip-horiz painter)
   (transform-painter painter

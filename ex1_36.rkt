@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "utils.rkt")
 
 (fixed-point (lambda (x) (/ (log 1000) (log x))) 2.0)
 (newline)

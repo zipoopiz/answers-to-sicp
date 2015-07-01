@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "utils.rkt")
 
 (define (compose f g)
   (lambda (x)

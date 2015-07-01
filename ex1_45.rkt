@@ -1,5 +1,5 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
-(load "D:\\source_code\\sicp\\ex1_43.rkt")
+(load "utils.rkt")
+(load "ex1_43.rkt")
 
 ; (define (fourth-root x)
 ;   (fixed-point (average-damp 

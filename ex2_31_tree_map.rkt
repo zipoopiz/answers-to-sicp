@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "utils.rkt")
 (define (tree-map func tree)
   (cond ((null? tree) '())
         ((not (pair? tree)) (func tree))

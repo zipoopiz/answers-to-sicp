@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 (define (queens board-size)
   (define (queen-cols k)
     (if (= k 0)

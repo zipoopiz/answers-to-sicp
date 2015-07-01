@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex2_2.rkt")
+(load "ex2_2.rkt")
 ;; implementation 1
 ;(define (make-rect bottom-left top-right)
 ;  (cons bottom-left top-right))

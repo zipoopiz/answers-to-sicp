@@ -1,5 +1,5 @@
-(load "D:\\source_code\\sicp\\painter_transform.rkt")
-(load "D:\\source_code\\sicp\\ex2_50.rkt")
+(load "painter_transform.rkt")
+(load "ex2_50.rkt")
 (define (below painter1 painter2)
   (let ((split-point (make-vect 0.0 0.5)))
     (let ((paint-low (transform-painter painter1

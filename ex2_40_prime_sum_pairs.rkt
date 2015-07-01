@@ -1,5 +1,5 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
-(load "D:\\source_code\\sicp\\utils.rkt")
+(load "list_operation.rkt")
+(load "utils.rkt")
 (define (unique-pairs n)
   (flatmap (lambda (i)
              (map (lambda (j) (list i j))

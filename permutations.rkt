@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\list_operation.rkt")
+(load "list_operation.rkt")
 (define (permutations s)
   (if (null? s) ; empty set?
       (list '()) ; sequence containing empty set

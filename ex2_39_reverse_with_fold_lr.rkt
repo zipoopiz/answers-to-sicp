@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex2_38_fold_left.rkt")
+(load "ex2_38_fold_left.rkt")
 
 (define (rev1 sequence)
   (fold-right (lambda (x y) 

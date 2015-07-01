@@ -1,4 +1,4 @@
-(load "D:\\source_code\\sicp\\ex1_43.rkt")
+(load "ex1_43.rkt")
 
 (define (smooth f)
   (define dx 0.00001)
